@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.contactsassignment" />
+                  <option name="mobileSdkAppId" value="1:877754315057:android:2177b257a9a8893fe8c010" />
+                  <option name="projectId" value="contacts-assignment-5b030" />
+                  <option name="projectNumber" value="877754315057" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Signup into your account"
+        android:textColor="@color/black"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="25dp"/>
 
@@ -63,6 +64,7 @@
                 android:textColor="@color/white"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:id="@+id/et_fullName"
                 android:hint="Full Name" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,14 +73,15 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:textColorHint="@color/white"
-            app:startIconDrawable="@drawable/baseline_email_24"
+            app:startIconDrawable="@drawable/baseline_supervised_user_circle_24"
             >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Email"
-                android:inputType="textEmailAddress"
+                android:hint="User Id"
+                android:id="@+id/et_userid"
+                android:inputType="text"
                 android:background="@drawable/edit_text_background"
                 android:textColor="@color/white"
                 />
@@ -96,6 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
+                android:id="@+id/et_password"
                 android:inputType="textPassword"
                 android:background="@drawable/edit_text_background"
                 android:textColor="@color/white"/>
@@ -133,6 +137,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="  Log In"
+           android:id="@+id/btn_login"
            android:textColor="#43A047"
            android:textStyle="bold"/>
 
